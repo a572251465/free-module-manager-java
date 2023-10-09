@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "server.object-storage",
+      "type": "dynamic.module.chendd.plus.properties.ObjectStorageProperties",
+      "sourceType": "dynamic.module.chendd.plus.properties.ObjectStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.object-storage.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "dynamic.module.chendd.plus.properties.ObjectStorageProperties"
+    },
+    {
+      "name": "server.object-storage.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "dynamic.module.chendd.plus.properties.ObjectStorageProperties"
+    },
+    {
+      "name": "server.object-storage.secret-key",
+      "type": "java.lang.String",
+      "description": "签名密钥",
+      "sourceType": "dynamic.module.chendd.plus.properties.ObjectStorageProperties"
+    },
+    {
+      "name": "server.object-storage.server-type",
+      "type": "dynamic.module.chendd.plus.properties.ObjectStorageProperties$ServerType",
+      "description": "对象存储服务类型",
+      "sourceType": "dynamic.module.chendd.plus.properties.ObjectStorageProperties"
+    }
+  ],
+  "hints": []
+}

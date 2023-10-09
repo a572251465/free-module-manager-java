@@ -1,0 +1,7 @@
+server:
+  port: 10001
+  object-storage:
+    server-type: "MINIO"
+    endpoint: "http://192.168.56.12:9000"
+    access-key: "demominio"
+    secret-key: "demominio"
